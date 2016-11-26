@@ -74,6 +74,27 @@ position:relative;
 
 }
 
+form {
+  border:1px solid #000;
+}
+
+label {
+  border:1px solid #3fad20;
+  width:150px;
+  float:left;
+  clear:left;
+  text-align:right;
+  margin-right:15px;
+}
+
+input[type=text]{
+  border:2px solid red;
+}
+
+textarea {
+  border:2px solid yellow;
+}
+
 /*
 header {
     position: fixed;
